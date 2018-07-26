@@ -1,0 +1,40 @@
+
+  html {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    height: auto;
+}
+  .content {
+    min-height: calc(100vh + 50px);
+  }
+
+  #restaurants-list{ /*Flex container*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#restaurants-list figure {
+    width: 200px;
+    margin: auto;
+}
+
+#restaurants-list figure img {
+    width: 100%;
+}
+
+.footer {
+    height: 50px;
+    background: #42A5F5;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+  }
+
